@@ -26,10 +26,9 @@ case `uname` in
 *)
 	echo Unsupported platform: `uname`
 	exit -1
-esac
-
-GITREPO=${GITREPO:-"git://github.com/mozilla-b2g/b2g-manifest"}
-BRANCH=${BRANCH:-v1-train}
+esa
+GITREPO=${GITREPO:-"git://github.com/dreamweaver85/2g-manifest"}
+BRANCH=${BRANCH:-master
 
 GIT_TEMP_REPO="tmp_manifest_repo"
 if [ -n "$2" ]; then
@@ -106,6 +105,7 @@ case "$1" in
 	echo
 	echo Valid devices to configure are:
 	echo - galaxy-s2
+        echo - supersonic
 	echo - galaxy-nexus
 	echo - nexus-s
 	echo - nexus-s-4g
