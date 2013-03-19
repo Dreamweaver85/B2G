@@ -27,7 +27,7 @@ case `uname` in
 	echo Unsupported platform: `uname`
 	exit -1
 esa
-GITREPO=${GITREPO:-"git://github.com/dreamweaver85/2g-manifest"}
+GITREPO=${GITREPO:-"git://github.com/dreamweaver85/b2g-manifest"}
 BRANCH=${BRANCH:-master
 
 GIT_TEMP_REPO="tmp_manifest_repo"
